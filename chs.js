@@ -2,7 +2,7 @@
  * @name    : Pokémon Idle - 汉化词典
  * @game    : pkmn-idle.com
  * @framework: 锅巴汉化 V0.8.2
- * @total   : 1320 translations
+ * @total   : 1332 translations
  */
 
 // ============================================================
@@ -1284,7 +1284,7 @@ var cnItems = {
     '{{0}} was released.': '{{0}} 被放生了。',
     'Unseen': '未见过',
     'unseen': '未见过',
-    'Caught': '已捕捉',
+    'Caught': '捉到了',
     'Seen': '已见过',
     'New': '新',
     'new': '新',
@@ -1350,6 +1350,18 @@ var cnItems = {
     'Go!': '上吧！',
     'Dollar': '元',
     'dollars': '元',
+    'Caught {{0}}!': '捉到了 {{0}}！',
+    'Caught {{0}}! Added to party.': '捉到了 {{0}}！已加入队伍。',
+    'Caught {{0}}! Sent to box.': '捉到了 {{0}}！已存入电脑。',
+    '{{0}} is now accessible!': '{{0}} 现在可以前往了！',
+    'is now accessible!': '现在可以前往了！',
+    '{{0}} fled!': '{{0}} 逃跑了！',
+    '{{0}} escaped!': '{{0}} 逃脱了！',
+    '{{0}} is fast asleep.': '{{0}} 睡得很香。',
+    '{{0}} is paralyzed! It can\'t move!': '{{0}} 麻痹了！无法行动！',
+    '{{0}} hurt itself in confusion!': '{{0}} 在混乱中攻击了自己！',
+    '{{0}} snapped out of confusion!': '{{0}} 从混乱中清醒了！',
+    '{{0}}\'s status cleared!': '{{0}} 的状态恢复了！',
 };
 
 // ============================================================
