@@ -91,6 +91,11 @@
     }
 }
 
+/* --- 隐藏逐字光标 --- */
+.text-cursor {
+    display: none !important;
+}
+
 /* --- 按钮文字 --- */
 button {
     font-size: 11px !important;
