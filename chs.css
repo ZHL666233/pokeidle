@@ -84,6 +84,11 @@
     .stats-panel {
         max-width: 95vw !important;
     }
+
+    /* 我方宝可梦信息卡片下移 */
+    .player-info-anchor {
+        bottom: 120px !important;
+    }
 }
 
 /* --- 按钮文字 --- */
