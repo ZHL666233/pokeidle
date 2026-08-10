@@ -1,0 +1,109 @@
+/* ============================================================
+ * Pokémon Idle - 中文适配样式
+ * 解决中文显示导致的UI溢出/被裁切问题
+ * ============================================================ */
+
+/* --- 全局中文字体回退优化 --- */
+* {
+    /* Press Start 2P 不含中文，回退到系统字体时确保可读 */
+    font-family: "Press Start 2P", "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif !important;
+}
+
+/* --- 主布局：加宽中心列 --- */
+.game-layout {
+    grid-template-columns: 1fr 620px 1fr !important;
+}
+
+/* --- 底部面板加高 --- */
+.bottom-panel {
+    height: 180px !important;
+}
+
+/* --- 战斗日志 --- */
+.log-entry {
+    font-size: 11px !important;
+    line-height: 1.35 !important;
+}
+.battle-log {
+    padding: 4px 8px !important;
+}
+.log-entries {
+    font-size: 11px !important;
+}
+
+/* --- 招式面板加宽 --- */
+.move-panel {
+    width: 500px !important;
+    max-height: 480px !important;
+}
+.move-panel-item-name {
+    font-size: 12px !important;
+}
+.move-panel-item-stats {
+    font-size: 10px !important;
+}
+
+/* --- 属性面板 --- */
+.stats-panel {
+    max-width: 500px !important;
+}
+.stats-panel-name {
+    font-size: 14px !important;
+}
+.stats-panel-stat-label,
+.stats-panel-stat-value {
+    font-size: 11px !important;
+}
+.stats-panel-move-name {
+    font-size: 11px !important;
+}
+.stats-panel-move-stats {
+    font-size: 10px !important;
+}
+
+/* --- 信息框 --- */
+.info-box {
+    font-size: 11px !important;
+}
+.info-pokemon-name {
+    font-size: 13px !important;
+}
+.info-pokemon-level {
+    font-size: 11px !important;
+}
+
+/* --- 移动端适配 --- */
+@media (max-width: 767px) {
+    .game-layout {
+        grid-template-columns: 1fr !important;
+    }
+    .move-panel {
+        width: 95vw !important;
+        max-height: 60vh !important;
+    }
+    .stats-panel {
+        max-width: 95vw !important;
+    }
+}
+
+/* --- 按钮文字 --- */
+button {
+    font-size: 11px !important;
+}
+
+/* --- 商店面板 --- */
+.shop-panel,
+.reward-shop-item-info,
+.shop-item-info {
+    font-size: 11px !important;
+}
+
+/* --- 道馆面板 --- */
+.gym-panel {
+    font-size: 11px !important;
+}
+
+/* --- 盒子面板 --- */
+.box-header-name {
+    font-size: 12px !important;
+}
