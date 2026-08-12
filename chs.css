@@ -1,11 +1,16 @@
 /* ============================================================
  * Pokémon Idle - 中文适配样式
- * 解决中文显示导致的UI溢出/被裁切问题
  * ============================================================ */
 
-/* --- 全局中文字体回退优化 --- */
+/* --- 本地字体（替代 Google Fonts） --- */
+@font-face {
+    font-family: "Press Start 2P";
+    src: url("fonts/press-start-2p.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* --- 全局字体 --- */
 * {
-    /* Press Start 2P 不含中文，回退到系统字体时确保可读 */
     font-family: "Press Start 2P", "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif !important;
 }
 
